@@ -13,7 +13,7 @@ class App extends Component {
         super(props);
         this.state = {
             data : [
-                { name: 'Victoria B.', salary: 800, increase: true, rise: true, id: 1 },
+                { name: 'Victoria B.', salary: 800, increase: false, rise: true, id: 1 },
                 { name: 'Stan S.', salary: 3000, increase: false, rise: false, id: 2 },
                 { name: 'Andreyus A.', salary: 5000, increase: true, rise: false, id: 3 }
             ],
@@ -108,6 +108,7 @@ class App extends Component {
                     onToggleProp={this.onToggleProp}/>
                 <EmoloyersAddForm onAddEmployees={this.onAddEmployees}/>
             </div>
+            
         );
    }
 }

@@ -2,13 +2,15 @@ import { Component } from 'react';
 import './employers-add-form.css';
 
 class EmployersAddForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            salary: 0
+        constructor(props) {
+            super(props);
+    
+            this.state = {
+                name: '',
+                salary: 0
+            }
         }
-    }
+
 
     onValueChange = (e) => {
         this.setState({
