@@ -4,7 +4,7 @@ import AppInfo from '../app-info/app-info';
 import SearchPanel from '../search-panel/search-panel';
 import AppFilter from '../app-filter/app-filter';
 import EmployersList from '../employers-list/employers-list';
-import EmoloyersAddForm from '../employers-add-form/employers-add-form';
+import EmoloyeesAddForm from '../employees-add-form/employees-add-form';
 
 import './app.css';
 
@@ -106,7 +106,7 @@ class App extends Component {
                     data={visibleData}
                     onDelete={this.deleteItem} 
                     onToggleProp={this.onToggleProp}/>
-                <EmoloyersAddForm onAddEmployees={this.onAddEmployees}/>
+                <EmoloyeesAddForm onAddEmployees={this.onAddEmployees}/>
             </div>
             
         );

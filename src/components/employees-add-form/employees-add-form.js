@@ -1,7 +1,7 @@
 import { Component } from 'react';
-import './employers-add-form.css';
+import './employees-add-form.css';
 
-class EmployersAddForm extends Component {
+class EmployeesAddForm extends Component {
         constructor(props) {
             super(props);
     
@@ -63,4 +63,4 @@ class EmployersAddForm extends Component {
    }
 }
 
-export default EmployersAddForm;
+export default EmployeesAddForm;
