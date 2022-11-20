@@ -1,6 +1,6 @@
-import './employers-list-item.css';
+import './employees-list-item.css';
 
-const EmployersListItem = (props) => {
+const EmployeesListItem = (props) => {
         const {name, salary, onDelete, onToggleProp, increase, rise} = props;
         let classNames = "list-group-item d-flex justify-content-between";
 
@@ -36,4 +36,4 @@ const EmployersListItem = (props) => {
     
 }
 
-export default EmployersListItem;
+export default EmployeesListItem;
